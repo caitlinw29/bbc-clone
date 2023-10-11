@@ -1,6 +1,8 @@
 # BBC-Clone
 
-Exercise creating a simple layout similar to BBC's site, using grid and flexbox.
+Exercise creating a simple layout similar to BBC's site, using CSS grid. 
+
+Base html skeleton, images for mockup, and basic css stylings were provided by Scrimba for the exercise.
 
 ## Table of Contents
 
@@ -14,7 +16,7 @@ Exercise creating a simple layout similar to BBC's site, using grid and flexbox.
 
 ## Purpose and Goals
 
-The purpose of this mini-project is to practice using CSS Grid primarily, plus Flexbox as needed.
+The purpose of this mini-project is to practice using CSS Grid.
 
 The main goal is to create a web page that shows different news articles in a responsive layout.
 
@@ -37,6 +39,10 @@ Mobile View:
 
 ![Mobile BBC](./assets/img/mobile-ss.png)
 
+Tablet (Medium) View:
+
+![Tablet BBC](./assets/img/tablet-ss.png)
+
 Desktop View:
 
 ![Desktop BBC](./assets/img/desktop-ss.png)
@@ -46,6 +52,8 @@ Desktop View:
 - Light/Dark mode toggle
 - Pull in real news articles with an API?
 - Add some buttons, and functionality with JS
+- Nav bar added
+- User account to save favorite articles (or save with localStorage)
 
 ## Deployed Link
 
