@@ -78,3 +78,16 @@ img {
   margin-bottom: -2px;
   filter: invert(32%) sepia(8%) saturate(0%) hue-rotate(174deg) brightness(93%) contrast(74%);
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr auto 1fr;
+}
+
+.featured-article {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column: 1 / 4;
+}
+
